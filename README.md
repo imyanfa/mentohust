@@ -35,7 +35,7 @@ sudo cp ./W32N55.dll /etc/mentohust
 更详细的帮助信息请参考：[http://wiki.ubuntu.org.cn/锐捷、赛尔认证MentoHUST](http://wiki.ubuntu.org.cn/锐捷、赛尔认证MentoHUST)
 
 #### 修改参数请根据帮助信息操作，例如修改用户名和密码：  
-`sudo mentohust -uUsername -pPassword -w`
+`sudo mentohust -uUsername -pPassword -w`  
 指定某些参数仅对当次认证有效请根据帮助信息操作，例如临时修改用户名和密码：`sudo mentohust -uUsername -pPassword`
 
 #### 如果提示缺少libpcap.so.0.x而在/usr/lib/目录下已存在一个libpcap.so.0.x.y，输入以下命令：
