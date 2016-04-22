@@ -29,19 +29,19 @@ sudo cp ./W32N55.dll /etc/mentohust
 9. 以后认证只需打开终端，输入`sudo mentohust`，回车。
 10. 要修改某些参数请输入`mentohust -h`查看帮助信息并据此修改，例如修改密码`sudo mentohust -pNewPassword -w`，要临时修改则不加-w参数。
 
-## 如何退出:不以后台模式运行mentohust时，按Ctrl+C即可退出；后台运行时使用`sudo mentohust -k`退出认证。
+#### 如何退出:不以后台模式运行mentohust时，按Ctrl+C即可退出；后台运行时使用`sudo mentohust -k`退出认证。
 
-## 查看帮助信息请输入：`mentohust -h`
+#### 查看帮助信息请输入：`mentohust -h`
 更详细的帮助信息请参考：[http://wiki.ubuntu.org.cn/锐捷、赛尔认证MentoHUST](http://wiki.ubuntu.org.cn/锐捷、赛尔认证MentoHUST)
 
-## 修改参数请根据帮助信息操作，例如修改用户名和密码：sudo mentohust -uUsername -pPassword -w
+#### 修改参数请根据帮助信息操作，例如修改用户名和密码：sudo mentohust -uUsername -pPassword -w
 指定某些参数仅对当次认证有效请根据帮助信息操作，例如临时修改用户名和密码：sudo mentohust -uUsername -pPassword
 
-## 如果提示缺少libpcap.so.0.x而在/usr/lib/目录下已存在一个libpcap.so.0.x.y，输入以下命令：
+#### 如果提示缺少libpcap.so.0.x而在/usr/lib/目录下已存在一个libpcap.so.0.x.y，输入以下命令：
 sudo ln -s libpcap.so.0.x.y /usr/lib/libpcap.so.0.x
 否则请安装libpcap。
 
-## 权责声明
+#### 权责声明
 1. 本程序所有涉及锐捷赛尔认证的功能均是来自前辈公开代码及抓包分析。
 2. 本程序于个人仅供学习，于他人仅供方便认证，不得使用本程序有意妨害锐捷赛尔认证机制及相关方利益。
 3. 一切使用后果由用户自己承担。
